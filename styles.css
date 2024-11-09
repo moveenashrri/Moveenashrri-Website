@@ -1,0 +1,168 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Customize with a more attractive font if desired */
+    color: #E4E6EB;
+    background-color: #738678;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main Container */
+.main-container {
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4d5d53;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px; /* Square shape */
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #E4E6EB;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.icon {
+    color: #fff;
+    text-decoration: none;
+    background-color: #4d5d53;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.icon:hover {
+    background-color: #212f45;
+}
+
+/* My Story Section */
+.my-story {
+    background-color: #4d5d53;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.my-story h2 {
+    font-size: 28px;
+    color: #E4E6EB;
+    margin-bottom: 10px;
+}
+
+.story-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.story-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+/* Achievements Section */
+.achievements {
+    background-color: #4d5d53;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.achievements h2 {
+    font-size: 28px;
+    color: #E4E6EB;
+    margin-bottom: 10px;
+}
+
+.achievement {
+    margin-bottom: 15px;
+}
+
+.achievement h3 {
+    font-size: 18px;
+    color: #E4E6EB;
+}
+
+.achievement img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #4d5d53;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #E4E6EB;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #E4E6EB;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E4E6EB;
+    color: #1b3a4b;
+}
+
+form button {
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #212f45;
+    color: #E4E6EB;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #272640;
+}
